@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "GeistUltraBlack";
+  font-style: bold;
+  font-weight: 800;
+  src: local("GeistUltraBlack"),
+    url("../../public/fonts/Geist-UltraBlack-BF6569491ecdc4d.otf") format("otf");
+}
+
+@font-face {
+  font-family: "GeistMedium";
+  src: local("GeistMedium"),
+    url("../../public/fonts/Geist-Medium-BF6569491e1c281.otf") format("otf");
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+@layer base {
+  h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#a1a1a1, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-gradient-vercel {
+    -webkit-background-clip: text;
+    background-clip: border-box;
+    font-weight: 800;
+    font-size: max(48px, min(5vw, 76px));
+    line-height: 1;
+    letter-spacing: -0.05em;
+    padding: 24px;
+    position: relative;
+    color: var(--text-color);
+  }
+  .foundation_card__v7VKB {
+    width: 240px;
+    min-height: 140px;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.02), 0 4px 6px rgba(0, 0, 0, 0.02),
+      inset 0 0 0 6px #111;
+    position: relative;
+    border: 0.5px solid #636363;
+    border-radius: 5%;
+  }
+}

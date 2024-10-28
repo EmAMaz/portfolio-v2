@@ -1,0 +1,26 @@
+{
+  "translation": {
+    "text-experience": "Experience",
+    "text-skills": "Skills",
+    "text-aboutme": "About Me",
+    "text-main-description": "Hi! I'm Santiago, a FullStack Developer from Argentina. I'm a self-taught developer, I love to learn new technologies and I'm always looking for new challenges.",
+    "text-main-title": "FullStack Developer",
+    "text-main-download": "Download CV",
+    "text-experience-title": "Relevant Experience",
+    "text-experience-description": "I'm a full-stack developer with +1 years of experience with a focus on the front end. I have worked with different technologies, from the most modern and popular to the most traditional and specific.",
+    "text-experience-date": "Present",
+    "text-experience-venedicto": "Front end Developer",
+    "text-experience-venedicto-description1": "Development of interfaces for apps and websites",
+    "text-experience-venedicto-description2": "Design implementation",
+    "text-experience-venedicto-description3": "Integration with APIs and external services.",
+    "text-experience-venedicto-description4": "Collaboration with the back-end design and development team",
+    "text-experience-venedicto-description5": "Making apk builds",
+    "text-experience-venedicto-description6": "Debug tasks",
+    "text-experience-chiste": "Why do programmers always wear sunglasses? Because they cannot stand daylight, as they are used to working in the dark. 😎",
+    "text-skills-title": "Technologies learned",
+    "text-aboutme-title": "About Me",
+    "text-aboutme-h2": "My name is",
+    "text-aboutme-description": "I'm a full-stack developer with +1 years of experience. I'm from Argentina Buenos Aires, I'm 21 years old. I have worked with different technologies, from the most modern and popular to the most traditional and specific.",
+    "text-aboutme-email": "Send me an e-mail"
+  }
+}

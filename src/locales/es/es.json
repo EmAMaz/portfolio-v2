@@ -1,0 +1,26 @@
+{
+  "translation": {
+    "text-experience": "Experiencia",
+    "text-skills": "Habilidades",
+    "text-aboutme": "Sobre mi",
+    "text-main-description": "Hola, soy Santiago, un desarrollador FullStack de Argentina. Soy un desarrollador autodidacta, me encanta aprender nuevas tecnologías y siempre estoy buscando nuevos desafíos.",
+    "text-main-title": "Desarrollador FullStack",
+    "text-main-download": "Descargar CV",
+    "text-experience-title": "Experiencia Relevante",
+    "text-experience-description": "Soy un desarrollador full-stack con +1 años de experiencia con foco en front end. He trabajado con diferentes tecnologías, desde las más modernas y populares hasta las más tradicionales y específicas.",
+    "text-experience-date": "Presente",
+    "text-experience-venedicto": "Desarrollador Front end",
+    "text-experience-venedicto-description1": "Desarrollo de interfaces para aplicaciones y sitios web",
+    "text-experience-venedicto-description2": "Aplicación del diseño",
+    "text-experience-venedicto-description3": "Integración con API y servicios externos.",
+    "text-experience-venedicto-description4": "Colaboración con el equipo de diseño y desarrollo de back-end",
+    "text-experience-venedicto-description5": "Creación de apk builds",
+    "text-experience-venedicto-description6": "Tareas de debug",
+    "text-experience-chiste": "¿Por qué los programadores llevan siempre gafas de sol? Porque no soportan la luz del día, ya que están acostumbrados a trabajar en la oscuridad. 😎",
+    "text-skills-title": "Tecnologias aprendidas",
+    "text-aboutme-title": "Sobre mi",
+    "text-aboutme-h2": "Mi nombre es",
+    "text-aboutme-description": "Soy desarrollador full stack con +2 años de experiencia. Soy de Argentina Buenos Aires, tengo 21 años. He trabajado con diferentes tecnologías, desde las más modernas y populares hasta las más tradicionales y específicas.",
+    "text-aboutme-email": "Envíame un e-mail"
+  }
+}
