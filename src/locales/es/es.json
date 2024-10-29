@@ -21,6 +21,15 @@
     "text-aboutme-title": "Sobre mi",
     "text-aboutme-h2": "Mi nombre es",
     "text-aboutme-description": "Soy desarrollador full stack con +2 años de experiencia. Soy de Argentina Buenos Aires, tengo 21 años. He trabajado con diferentes tecnologías, desde las más modernas y populares hasta las más tradicionales y específicas.",
-    "text-aboutme-email": "Envíame un e-mail"
+    "text-aboutme-email": "Envíame un e-mail",
+    "text-projects-title": "Proyectos",
+    "text-project-title-1": "VALOAPI",
+    "text-project-title-2": "Juego del ahorcado",
+    "text-project-title-3": "Encriptador de texto",
+    "text-project-description-1": "Web que consume la API oficial de VALORANT",
+    "text-project-description-2": "Juego del ahorcado pero más desafiante que nunca!",
+    "text-project-description-3": "Encriptador de texto super divertido",
+    "text-project-buttoncard1": "Ver en vivo",
+    "text-project-buttoncard2": "Github"
   }
 }

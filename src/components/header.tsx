@@ -53,7 +53,7 @@ export default function HeaderComponent({ sectionIndex, onProject }: Props) {
                 className="block rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white transition hover:opacity-85"
                 onClick={() => onProject(true)}
               >
-                Projects
+                {t("text-projects-title")}
               </button>
             </div>
             <button onClick={handleChangeLanguage} className="border-[1.5px] border-black p-1">
