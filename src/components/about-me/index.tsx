@@ -6,11 +6,11 @@ export default function AboutMePage() {
     <>
       <div className="font-geist-ultra">
         <div>
-          <div className="flex flex-col items-center px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
+          <div className="flex min-h-screen flex-col items-center px-4 pb-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
             <h1 className="mt-10 mb-4 self-center bg-clip-text text-gradient-vercel dark:text-gradient-vercel dark:gradient-text gradient-text">
               {t("text-aboutme-title")}
             </h1>
-            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:h-screen">
+            <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
               <div className="relative h-64 sm:h-80 lg:h-full">
                 <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-b from-blue-400 to-blue-600 opacity-75 rounded-tr-full"></div>
               </div>

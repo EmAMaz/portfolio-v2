@@ -5,7 +5,7 @@ export default function ExperiencePage() {
   return (
     <div className="font-geist-ultra">
       <div>
-        <section className="py-32 bg-gradient-to-t from-black/10 to-white dark:from-black/15 dark:to-black">
+        <section className="py-32 min-h-screen bg-gradient-to-t from-black/10 to-white dark:from-black/15 dark:to-black">
           <div className="container mx-auto px-4">
             <div className="flex flex-col lg:flex-row gap-8">
               <div className="text-center lg:text-left flex-1">

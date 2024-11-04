@@ -1,10 +1,13 @@
 import { useTranslation } from "react-i18next";
 import CardProject from "../cardProject";
+import HeaderComponent from "../header";
 
 export default function ProjectPage() {
   const { t } = useTranslation();
-
   return (
+    <>
+    <HeaderComponent></HeaderComponent>
+    
     <div className="flex flex-col items-center bg-white dark:bg-black pb-16">
       <h1 className="mb-4 self-center mt-10 bg-clip-text dark:text-gradient-vercel dark:gradient-text text-gradient-vercel gradient-text">
         {t("text-projects-title")}
@@ -32,5 +35,6 @@ export default function ProjectPage() {
         ></CardProject>
       </div>
     </div>
+    </>
   );
 }
