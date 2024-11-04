@@ -7,7 +7,7 @@ export default function AboutMePage() {
       <div className="font-geist-ultra">
         <div>
           <div className="flex min-h-screen flex-col items-center px-4 pb-16 mx-auto max-w-screen-2xl sm:px-6 lg:px-8">
-            <h1 className="mt-10 mb-4 self-center bg-clip-text text-gradient-vercel dark:text-gradient-vercel dark:gradient-text gradient-text">
+            <h1 className="mt-10 mb-4 self-center bg-clip-text text-gradient-vercel gradient-text">
               {t("text-aboutme-title")}
             </h1>
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">

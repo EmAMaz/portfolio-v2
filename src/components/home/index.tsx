@@ -3,13 +3,13 @@ import { useTranslation } from "react-i18next";
 export default function HomePage() {
   const { t } = useTranslation();
   return (
-    <div className="mx-auto px-4 sm:py-32 py-20 flex items-center bg-white dark:bg-black sm:h-auto sm:overflow-visible min-h-screen overflow-hidden">
+    <div className="mx-auto px-4 sm:py-32 py-20 flex items-center bg-white sm:h-auto sm:overflow-visible min-h-screen overflow-hidden">
       <div className="mx-auto text-center relative">
-        <h1 className="bg-clip-text dark:text-gradient-vercel dark:gradient-text text-gradient-vercel gradient-text select-none">
+        <h1 className="bg-clip-text text-gradient-vercel gradient-text select-none">
           {t("text-main-title")}
           <span className="sm:block leading-tight  "> Santiago Maza. </span>
         </h1>
-        <p className="mx-auto mt-4 max-w-xl text-xl/relaxed dark:text-white/55 text-black select-none">
+        <p className="mx-auto mt-4 max-w-xl text-xl/relaxed text-black select-none">
           {t("text-main-description")}
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">

@@ -8,8 +8,8 @@ export default function ProjectPage() {
     <>
     <HeaderComponent></HeaderComponent>
     
-    <div className="flex flex-col items-center bg-white dark:bg-black pb-16">
-      <h1 className="mb-4 self-center mt-10 bg-clip-text dark:text-gradient-vercel dark:gradient-text text-gradient-vercel gradient-text">
+    <div className="flex flex-col items-center bg-white">
+      <h1 className="mb-4 self-center mt-10 bg-clip-text text-gradient-vercel gradient-text">
         {t("text-projects-title")}
       </h1>
       <div className="flex items-center gap-4">
