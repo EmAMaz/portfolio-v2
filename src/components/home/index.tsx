@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 export default function HomePage() {
   const { t } = useTranslation();
   return (
-    <div className="mx-auto px-4 sm:py-32 py-20 flex items-center bg-white sm:h-auto sm:overflow-visible min-h-screen overflow-hidden">
+    <div className="mx-auto px-4 sm:py-32 py-20 flex items-center bg-white sm:h-auto sm:overflow-visible">
       <div className="mx-auto text-center relative">
         <h1 className="bg-clip-text text-gradient-vercel gradient-text select-none">
           {t("text-main-title")}

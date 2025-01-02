@@ -51,3 +51,10 @@
     border-radius: 5%;
   }
 }
+.swiper-pagination-bullet {
+  background: #000000;
+  padding: 5px;
+}
+.swiper-wrapper {
+  height: calc(100vh - 65px);
+}
