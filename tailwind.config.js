@@ -6,6 +6,9 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'sm': '576px'
+    },
     extend: {
       fontFamily: {
         "geist-ultra": ["GeistUltraBlack", "sans-serif"],
