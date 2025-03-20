@@ -6,7 +6,7 @@ export default function SkillPage() {
   return (
     <>
       <div className="font-geist-ultra">
-        <div className="flex flex-col items-center bg-white justify-center h-screen py-8">
+        <div className="flex flex-col items-center bg-white justify-center h-screen pt-16 pb-8">
           <h1 className="bg-clip-text text-gradient-vercel gradient-text">
             {t("text-skills-title")}
           </h1>
