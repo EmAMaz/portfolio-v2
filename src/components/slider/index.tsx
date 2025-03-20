@@ -10,6 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import ContainerCustom from "../containerCstm/ContainerMain";
 
 export default function SliderComponent() {
   return (
@@ -21,13 +22,19 @@ export default function SliderComponent() {
         pagination={{ clickable: true }}
       >
         <SwiperSlide>
-          <HomePage />
+          <ContainerCustom>
+            <HomePage />
+          </ContainerCustom>
         </SwiperSlide>
         <SwiperSlide>
-          <ExperiencePage />
+          <ContainerCustom>
+            <ExperiencePage />
+          </ContainerCustom>
         </SwiperSlide>
         <SwiperSlide>
-          <SkillPage />
+          <ContainerCustom>
+            <SkillPage />
+          </ContainerCustom>
         </SwiperSlide>
       </Swiper>
     </div>
