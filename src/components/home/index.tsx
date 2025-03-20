@@ -11,7 +11,7 @@ export default function HomePage() {
           Santiago Maza.{" "}
         </span>
       </h1>
-      <p className="mx-auto mt-4 font-medium max-w-xl text-lg/relaxed xl:text-xl/relaxed text-black/65 select-none">
+      <p className="mx-auto hidden sm:block mt-4 font-medium max-w-xl text-lg/relaxed xl:text-xl/relaxed text-black/65 select-none">
         {t("text-main-description")}
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-4">
