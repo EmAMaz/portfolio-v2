@@ -5,7 +5,7 @@ import ErrorPage from "./components/error-page";
 
 function App() {
   return (
-    <div className="sm:h-screen h-min">
+    <div className="sm:h-screen h-min responsiveContainer">
       <Routes>
         <Route path="/" element={<SliderComponent />} />
         <Route path="/projects" element={<ProjectPage />} />

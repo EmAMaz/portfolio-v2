@@ -14,7 +14,7 @@ import ContainerCustom from "../containerCstm/ContainerMain";
 
 export default function SliderComponent() {
   return (
-    <div className="sm:h-screen h-min">
+    <div className="sm:h-screen h-min responsive">
       <HeaderComponent projectSection={false} />
       <Swiper
         modules={[Pagination]}

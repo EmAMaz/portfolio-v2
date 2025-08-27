@@ -58,3 +58,9 @@
 .swiper-wrapper {
   height: calc(100vh - 65px);
 }
+
+@media screen and (max-width: 640px) {
+  .responsiveContainer {
+    height: calc(100vh - 65px);
+  }
+}
