@@ -29,6 +29,7 @@ export default function SliderComponent() {
         <SwiperSlide>
           <ContainerCustom>
             <ExperiencePage />
+            <ExperiencePage />
           </ContainerCustom>
         </SwiperSlide>
         <SwiperSlide>

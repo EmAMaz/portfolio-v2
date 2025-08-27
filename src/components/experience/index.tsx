@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import CardExperience from "./CardExperience";
 
 export default function ExperiencePage() {
   const { t } = useTranslation();
@@ -41,39 +42,8 @@ export default function ExperiencePage() {
                 </div>
               </div>
               <div className="flex-1">
-                <ul style={{ paddingLeft: "8px" }}>
-                  <li className="pl-8 pb-8 relative border-l-2 border-l-primary border-l-black">
-                    <div
-                      className="absolute border top-0 rounded-full bg-background flex items-center justify-center border-primary"
-                      aria-hidden="true"
-                      style={{
-                        width: "16px",
-                        height: "16px",
-                        left: "-9px",
-                        borderWidth: "2px",
-                        background: "#fff",
-                        border: "1px solid #000",
-                      }}
-                    ></div>
-                    <div className="font-semibold text-base leading-none mb-1">
-                      {t("text-experience-venedicto")}
-                    </div>
-                    <p className="text-sm text-muted-foreground">
-                      Venedicto Team
-                    </p>
-                    <p className="text-sm text-muted-foreground">
-                      2024 - {t("text-experience-date")}
-                    </p>
-                    <ul className="list-disc mt-4">
-                      <li>{t("text-experience-venedicto-description1")}</li>
-                      <li>{t("text-experience-venedicto-description2")}</li>
-                      <li>{t("text-experience-venedicto-description3")}</li>
-                      <li>{t("text-experience-venedicto-description4")}</li>
-                      <li>{t("text-experience-venedicto-description5")}</li>
-                      <li>{t("text-experience-venedicto-description6")}</li>
-                    </ul>
-                  </li>
-                </ul>
+                <CardExperience experience="freelance"/>
+                <CardExperience experience="venedicto" />
               </div>
             </div>
           </div>
