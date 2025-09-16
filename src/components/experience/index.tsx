@@ -29,7 +29,7 @@ export default function ExperiencePage() {
                         decoding="async"
                         data-nimg="1"
                         className="rounded-xl hover:shadow-xl transition duration-200 ease-in-out cursor-pointer"
-                        src="/fotocv.jpeg"
+                        src="imageCv/fotocv.jpeg"
                       />
                     </div>
                     <div>
