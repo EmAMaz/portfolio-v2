@@ -32,7 +32,7 @@ export default function HeaderComponent({
           }}
           className="cursor-pointer"
         >
-          <Link to="/"><img src="/logoH.svg" className="h-10 w-10" alt="" /></Link>
+          <Link reloadDocument to="/"><img src="iconsTech/logoH.svg" className="h-10 w-10" alt="" /></Link>
         </span>
 
           <div className="flex flex-1 items-center justify-end">
