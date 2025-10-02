@@ -8,7 +8,7 @@ export const enlaces = [
   {
     id: 2,
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/emanuel-santiago-maza-b6a0251aa/",
+    url: "https://www.linkedin.com/in/santiago-maza-b6a0251aa/",
     iconImage: "linkedIn.svg",
   },
 ];
