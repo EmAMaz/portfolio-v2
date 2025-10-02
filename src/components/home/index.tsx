@@ -1,16 +1,10 @@
-import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { EnlacesI } from "../../interface/interface";
 import { enlaces } from "../../utils/datos";
 import { motion } from "motion/react";
 
 export default function HomePage() {
-  const [listEnlaces, setListEnlaces] = useState<EnlacesI[]>([]);
   const { t } = useTranslation();
-
-  useEffect(() => {
-    setListEnlaces(enlaces);
-  }, []);
 
   return (
     <div className="mx-auto text-center relative">
@@ -55,8 +49,8 @@ export default function HomePage() {
       </div>
       <div className="mx-auto mt-10 max-w-xl sm:text-xl/relaxed dark:text-white/55 text-black ">
         <div className="mt-6 flex justify-center gap-4 lg:justify-center">
-          {listEnlaces ? (
-            listEnlaces.map((enlace: EnlacesI) => {
+          {enlaces && (
+            enlaces.map((enlace: EnlacesI) => {
               return (
                 <motion.a
                   whileHover={{ scale: 1.1 }}
@@ -67,12 +61,10 @@ export default function HomePage() {
                   rel="noreferrer"
                   href={enlace.url}
                 >
-                  <img src={`./${enlace.iconImage}`} alt="" />
+                  <img src={`./iconsTech/${enlace.iconImage}`} alt="" />
                 </motion.a>
               );
             })
-          ) : (
-            <></>
           )}
         </div>
       </div>
