@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
 
-export default function CardExperience({ experience }: { experience: string }) {
+export default function CardExperience({ experience, className }: { experience: string, className?: string }) {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className={`${className} text-left`}>
       <ul style={{ paddingLeft: "8px" }}>
         <li className="pl-8 pb-8 relative border-l-2 border-l-primary border-l-black">
           <div
