@@ -35,7 +35,6 @@
     font-size: max(48px, min(5vw, 76px));
     line-height: 1;
     letter-spacing: -0.05em;
-    padding: 24px;
     position: relative;
     color: var(--text-color);
   }
