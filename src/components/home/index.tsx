@@ -8,25 +8,25 @@ export default function HomePage() {
 
   return (
     <div className="mx-auto text-center relative">
-      <h1 className="bg-clip-text text-gradient-vercel gradient-text select-none">
+      <h1 className="bg-clip-text text-gradient-vercel gradient-text select-none xl:leading-[50px]">
         <motion.div
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ type: "tween" }}
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ type: "spring", delay: 0.4, duration: 0.4 }}
         >
           {t("text-main-title")}
         </motion.div>
         <motion.span
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ type: "tween" }}
-          className="sm:block leading-none sm:leading-tight  "
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ type: "spring", delay: 0.2, duration: 0.2 }}
+          className="sm:block leading-[61px] xl:leading-[99px]"
         >
           {" "}
           Santiago Maza.{" "}
         </motion.span>
       </h1>
-      <p className="mx-auto hidden sm:block mt-4 font-medium max-w-xl text-lg/relaxed xl:text-xl/relaxed text-black/65 select-none">
+      <p className="mx-auto hidden sm:block mt-4 font-medium max-w-xl text-xl/7 text-black/65 select-none">
         {t("text-main-description")}
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-4">
