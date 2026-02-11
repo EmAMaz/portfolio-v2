@@ -8,9 +8,17 @@
     "text-main-download": "Download CV",
     "text-experience-title": "Relevant Experience",
 
+    "text-experience-forit": "FORIT Software Factory",
+    "text-experience-forit-position": "Frontend Developer",
+    "text-experience-forit-description": "I'am a full-stack developer with +{{year}} years of experience focusing on front end. I have worked with different technologies, from the most modern and popular to the most traditional and specific.",
+    "text-experience-forit-tasks": "Development of interfaces for apps and websites",
+    "text-experience-forit-technologies": "Using Canva as a design tool, React with Typescript for coding, TailwindCSS for styling, and TanStackQuery for data retrieval.",
+    "text-experience-forit-practices": "Debugging tasks, clean code, functional programming.",
+    "text-experience-forit-date": "01/2026 - Present",
+    
     "text-experience-venedicto": "Venedicto Developers",
     "text-experience-venedicto-position": "Frontend Developer",
-    "text-experience-venedicto-description": "I'm a full-stack developer with +1 years of experience with a focus on the front end. I have worked with different technologies, from the most modern and popular to the most traditional and specific.",
+    "text-experience-description": "I'am a full-stack developer with +{{year}} years of experience focusing on front end. I have worked with different technologies, from the most modern and popular to the most traditional and specific.",
     "text-experience-tasksTitle": "Tasks",
     "text-experience-venedicto-tasks": "Development of interfaces for apps and websites",
     "text-experience-technologiesTitle": "Technologies",

@@ -8,9 +8,16 @@
     "text-main-download": "Descargar CV",
     "text-experience-title": "Experiencia Relevante",
 
+    "text-experience-forit-position": "Desarrollador FullStack",
+    "text-experience-forit": "FORIT Software Factory",
+    "text-experience-forit-date": "01/2026 - Actualidad",
+    "text-experience-forit-tasks": "Desarrollo de arquitectura End-to-End, creación y consumo de APIs RESTful, gestión de bases de datos, autenticación y seguridad, optimización de rendimiento",
+    "text-experience-forit-technologies": "Next, Typescript, Express, PostgreSQL, Docker, TaildwindCSS, Vitest y Git",
+    "text-experience-forit-practices": "Tareas de Depuración, Código limpio, Programación funcional, Test driven Development, Arquitectura limpia, Programación orientada a objetos.",
+
     "text-experience-venedicto": "Venedicto Developers",
     "text-experience-venedicto-position": "Desarrollador Frontend",
-    "text-experience-description": "Soy un desarrollador full-stack con +1 años de experiencia con foco en front end. He trabajado con diferentes tecnologías, desde las más modernas y populares hasta las más tradicionales y específicas.",
+    "text-experience-description": "Soy desarrollador full-stack con +{{year}} de experiencia con foco en front end. He trabajado con diferentes tecnologías, desde las más modernas y populares hasta las más tradicionales y específicas.",
     "text-experience-tasksTitle": "Tareas",
     "text-experience-venedicto-tasks": "Desarrollo de interfaces para aplicaciones y sitios web.",
     "text-experience-technologiesTitle": "Tecnologías",
