@@ -38,6 +38,16 @@
     position: relative;
     color: var(--text-color);
   }
+  .text-custom-title{
+    -webkit-background-clip: text;
+    background-clip: border-box;
+    font-weight: 800;
+    font-size: max(48px, min(5vw, 76px));
+    line-height: 1;
+    letter-spacing: -0.05em;
+    position: relative;
+    color: #1f2937;
+  }
   .foundation_card__v7VKB {
     width: 240px;
     min-height: 140px;
