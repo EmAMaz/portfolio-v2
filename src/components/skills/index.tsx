@@ -7,10 +7,10 @@ export default function SkillPage() {
     <>
       <div className="font-geist-ultra">
         <div className="flex flex-col text-center items-center bg-white justify-center h-screen pt-16 pb-8">
-          <h2 className="bg-clip-text text-custom-title">
+          <h2 className="bg-clip-text text-custom-title mb-4 xl:mb-0">
             {t("text-skills-title")}
           </h2>
-          <div className="grid gap-0 justify-items-center md:gap-4 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-5 overflow-y-auto max-h-screen py-8">
+          <div className="grid justify-items-center gap-4 grid-cols-3 xl:grid-cols-5 overflow-y-auto max-h-screen py-8">
             <CardSkills imgUrl="iconsTech/typescript.svg" titulo="Typescript" urlRef="https://www.typescriptlang.org/"/>
             <CardSkills imgUrl="iconsTech/reactlogo.svg" titulo="React" urlRef="https://reactjs.org/"/>
             <CardSkills imgUrl="iconsTech/angular.svg" titulo="Angular" urlRef="https://angular.dev/"/>
