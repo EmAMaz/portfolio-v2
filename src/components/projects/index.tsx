@@ -20,6 +20,7 @@ export default function ProjectPage() {
             technology="Angular, Node.js, Taildwind, API Rest"
           ></CardProject>
           <CardProject
+          <CardProject
             nameProject="Juego del ahorcado"
             urlGithub="https://github.com/EmAMaz/juegodelahorcado"
             urlLive="https://emamaz.github.io/juegodelahorcado/"
