@@ -8,7 +8,7 @@ export default function ExperiencePage() {
     <div className="font-geist-ultra">
       <div className="flex flex-col items-center bg-white justify-center h-screen pt-16 pb-8">
           <div className="flex justify-center items-center px-4 pt-8 pb-16 h-full">
-            <div className="flex flex-col gap-8 h-full">
+            <div className="flex flex-col justify-center gap-8 h-full">
               <h2 className="bg-clip-text text-gradient-vercel gradient-text select-none text-5xl font-bold text-gray-800 mb-4">
                 {t("text-experience-title")}
               </h2>
