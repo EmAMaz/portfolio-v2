@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import CardProject from "../cardProject";
 import HeaderComponent from "../header";
 import { projects } from "../../utils/datos";
 
