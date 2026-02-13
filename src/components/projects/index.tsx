@@ -9,17 +9,14 @@ export default function ProjectPage() {
       <HeaderComponent></HeaderComponent>
       <section className="py-24 bg-[#fbfbfb] text-black" id="proyectos">
         <div className="container mx-auto px-6">
-          {/* Cabecera Limpia */}
           <div className="mb-16 border-l-2 border-black pl-6">
             <h2 className="text-4xl md:text-6xl font-light tracking-tighter uppercase">
               {t("text-projects-title")} <span className="font-black">{t("text-projects-title&")}</span>
             </h2>
             <p className="text-gray-500 mt-4 max-w-lg font-medium text-sm tracking-wide">
-              EXPLORACIÓN DE INTERFACES Y DESARROLLO FUNCIONAL.
             </p>
           </div>
 
-          {/* Bento Grid Claro */}
           <div className="grid grid-cols-1 md:grid-cols-4 md:grid-rows-2 gap-4 h-full md:h-[850px]">
             {projects.map((project, index) => {
               const isLarge = index === 0;
@@ -32,29 +29,22 @@ export default function ProjectPage() {
                 ${isLarge ? "md:col-span-2 md:row-span-2" : ""} 
                 ${isMedium ? "md:col-span-2 md:row-span-1" : "md:col-span-1"}`}
                 >
-                  {/* Contenedor de Imagen */}
                   <div className="absolute inset-0 z-0">
                     <img
                       src={project.image}
                       alt={project.title}
                       className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105 opacity-90"
                     />
-                    {/* Overlay Gradiente más suave para fondo claro */}
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                   </div>
 
-                  {/* Contenido sobre la imagen */}
                   <div className="relative z-10 h-full p-8 flex flex-col justify-end">
                     <h3
                       className={`font-bold text-white tracking-tight ${isLarge ? "text-3xl" : "text-xl"}`}
                     >
                       {project.title}
                     </h3>
-                    {/* <p className="text-gray-200 text-sm uppercase mt-2 mb-6 font-medium max-w-xs transition-opacity duration-500">
-                      {project.description}
-                    </p> */}
 
-                    {/* Botones Monocromáticos */}
                     <div className="flex gap-3">
                       <a
                       href={project.demoLink}
@@ -74,7 +64,6 @@ export default function ProjectPage() {
                           strokeWidth="2"
                           d="Stack-icon-placeholder-15"
                         />
-                        {/* Reemplazar con icono de Link/Ojo */}
                         <path d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                       </svg>
                     </a>
