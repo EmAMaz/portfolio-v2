@@ -8,24 +8,12 @@ export default function HomePage() {
 
   return (
     <div className="mx-auto text-center relative">
-      <h1 className="bg-clip-text text-gradient-vercel gradient-text select-none xl:leading-[50px]">
-        <motion.div
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ type: "spring", delay: 0.4, duration: 0.4 }}
-        >
-          {t("text-main-title")}
-        </motion.div>
-        <motion.span
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ type: "spring", delay: 0.2, duration: 0.2 }}
-          className="sm:block leading-[61px] xl:leading-[99px]"
-        >
-          {" "}
-          Santiago Maza.{" "}
-        </motion.span>
-      </h1>
+      <div className="bg-clip-text text-gradient-vercel gradient-text select-none xl:leading-[50px]">
+        
+          <h1 className="bg-clip-text text-gradient-vercel gradient-text select-none xl:leading-[50px] animate__animated animate__fadeInDown">{t("text-main-title")}<h2 className="sm:block leading-[61px] xl:leading-[99px]">Santiago Maza</h2></h1>
+          
+          
+      </div>
       <p className="mx-auto hidden sm:block mt-4 font-medium max-w-xl text-xl/7 text-black/65 select-none">
         {t("text-main-description")}
       </p>
